@@ -1,0 +1,29 @@
+desktop-image: "ena1.jpg"
+title-text: ""
+terminal-font: "JetBrains Mono Regular 16"
+
++ boot_menu {
+  left = 30%
+  top = 35%
+  width = 40%
+  height = 40%
+  item_font = "JetBrains Mono Regular 24"
+  item_color = "#7a8a99"
+  selected_item_color = "#00d9ff"
+  item_height = 48
+  item_spacing = 12
+  icon_width = 32
+  icon_height = 32
+ 
+}
+
++ label {
+  id = "__timeout__"
+  left = 0
+  top = 85%
+  width = 100%
+  align = "center"
+  text = "Booting in %d seconds"
+  color = "#7a8a99"
+  font = "JetBrains Mono Regular 16"
+}
