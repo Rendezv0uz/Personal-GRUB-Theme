@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=mytheme
+Description=Boot splash matching the mytheme GRUB theme
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/mytheme
+ScriptFile=/usr/share/plymouth/themes/mytheme/mytheme.script
